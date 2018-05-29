@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="foods">
+        <item>황기</item>
+        <item>칡</item>
+        <item>더덕</item>
+        <item>둥글레</item>
+        <item>오가피</item>
+        <item>대추</item>
+        <item>인삼</item>
+        <item>감초</item>
+        <item>도라지</item>
+        <item>검은깨</item>
+        <item>구기자</item>
+        <item>녹두</item>
+        <item>녹차</item>
+        <item>당근</item>
+        <item>당귀</item>
+        <item>들깨</item>
+        <item>메밀</item>
+        <item>미강</item>
+        <item>민들레(포공영)</item>
+        <item>맥반석</item>
+        <item>박하</item>
+        <item>백강잠</item>
+        <item>백봉령</item>
+        <item>백련초</item>
+        <item>보리</item>
+        <item>복분자</item>
+        <item>뽕잎(상엽)</item>
+        <item>삼백초</item>
+        <item>서시옥용산</item>
+        <item>석창포</item>
+        <item>소목</item>
+        <item>소목</item>
+        <item>솔잎</item>
+        <item>송진</item>
+        <item>송하</item>
+        <item>숯</item>
+        <item>알로에</item>
+        <item>약쑥</item>
+        <item>어성초</item>
+        <item>오미자</item>
+        <item>은행</item>
+        <item>율무</item>
+        <item>율피</item>
+        <item>인삼</item>
+        <item>자초</item>
+        <item>작약</item>
+        <item>진주</item>
+        <item>진피</item>
+        <item>쪽</item>
+        <item>치자</item>
+        <item>천궁</item>
+        <item>토사자</item>
+        <item>토트마린</item>
+        <item>파프리카</item>
+        <item>팥가루</item>
+        <item>하수오</item>
+        <item>호박</item>
+        <item>홍화씨</item>
+        <item>황백</item>
+        <item>황토</item>
+        <item>현미</item>
+        <item>해초</item>
+        <item>흑축(나팔꽃씨)</item>
+        <item>감초</item>
+
+
+    </string-array>
+
+
+</resources>

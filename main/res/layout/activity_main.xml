@@ -7,6 +7,53 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/consulting"
+            android:text="상담"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/hanyak"
+            android:text="한약재"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/home"
+            android:text="home"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,7 +65,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:id="@+id/riceButton"
-            android:text="쌀"
+            android:text="이벤트"
             android:textStyle="bold"
             android:textColor="#FFFFFF"
             android:textSize="18dp"
@@ -31,7 +78,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:id="@+id/barleyButton"
-            android:text="보리"
+            android:text="한방다이어트"
             android:textStyle="bold"
             android:textColor="#FFFFFF"
             android:textSize="18dp"
@@ -44,7 +91,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:id="@+id/cornButton"
-            android:text="옥수수"
+            android:text="한방피부"
             android:textStyle="bold"
             android:textColor="#FFFFFF"
             android:textSize="18dp"
@@ -52,6 +99,8 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"/>
     </LinearLayout>
+
+
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -87,6 +136,18 @@
                 android:layout_marginTop="10dp"/>
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ListView android:id="@android:id/list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ListView>
+            </LinearLayout>
+
+
         </LinearLayout>
 
         <RelativeLayout
@@ -96,5 +157,10 @@
 
         </RelativeLayout>
 
+
+
+
     </FrameLayout>
+
+
 </LinearLayout>
